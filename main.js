@@ -25,7 +25,7 @@ function setup(){
   var canvas =  createCanvas(700,600);
   canvas.parent('canvas');
   video = createCapture(VIDEO);
-  video.center();
+  canvas.center();
   
   poseNet = ml5.poseNet('video',modelloaded);
   poseNet.on('pose',gotposes);
