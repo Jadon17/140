@@ -44,6 +44,8 @@ function gotposes(results){
 
 function draw(){
 
+image(img,700,600,0,0);
+	
  background(0); 
 
  fill("black");
